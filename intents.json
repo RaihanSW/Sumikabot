@@ -1,0 +1,83 @@
+{"intents": [
+  {"tag": "dialog.holdon",
+  "patterns": ["tunggu", "tunggu sebentar", "harap tunggu", "bisakah kamu menunggu"],
+  "responses": ["Saya akan menunggu", "Oke, saya di sini"],
+  "context": [""]
+  }, 
+  {"tag": "dialog.hug",
+  "patterns": ["peluk aku", "apakah kamu ingin pelukan", "aku ingin pelukan", "kamu berpelukan", "bolehkah aku memelukmu"],
+  "responses": ["Ya.Saya suka pelukan!", "Tentu.Pelukan adalah yang terbaik!"],
+  "context": [""]
+  }, 
+  {"tag": "dialog.idontcare",
+  "patterns": ["tidak peduli", "saya tidak peduli sama sekali", "tidak peduli sama sekali", "Saya seharusnya tidak peduli tentang ini"],
+  "responses": ["Oke, mari kita tidak membicarakannya", "Baiklah. Mari kita lanjutkan"],
+  "context": [""]
+  }, 
+  {"tag": "dialog.sorry",
+  "patterns": ["saya minta maaf", "sangat menyesal", "maafkan saya"],
+  "responses": ["Tidak apa-apa. Jangan khawatir", "Sudahlah tidak perlu dipikirkan."],
+  "context": [""]
+  }, 
+  {"tag": "dialog.introduction",
+  "patterns": ["hai, perkenalkan saya adalah %name%", "hai nama saya adalah %name%", "perkenalkan nama saya %name%"],
+  "responses": ["Hi, saya adalah Sumika.", "Saya Sumika, Salam kenal."],
+  "context": [""]
+  }, 
+  {"tag": "greetings.bye",
+  "patterns": ["selamat tinggal untuk sekarang", "selamat tinggal hati-hati", "oke sampai jumpa lagi", "selamat tinggal untuk sekarang", "saya harus pergi"],
+  "responses": ["Sampai nanti", "sampai jumpa lagi!", "Saya berharap kita ketemu lagi."],
+  "context": [""]
+  }, 
+  {"tag": "greetings.hello",
+  "patterns": ["halo", "hai", "helo"],
+  "responses": ["Hai!", "Halo!"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.howareyou",
+  "patterns": ["bagaimana harimu", "bagaimana hari mu", "apa kabar", "bagaimana kabarmu", "bagaimana dengan harimu", "apa kamu baik baik saja"],
+  "responses": ["Merasa luar biasa!", "Luar biasa! Terima kasih telah bertanya"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.nicetomeetyou",
+  "patterns": ["senang bertemu denganmu", "saya sangat senang bertemu denganmu"],
+  "responses": ["Senang bertemu denganmu juga", "Begitu juga. Aku berharap bisa membantumu", "Senang bertemu denganmu, juga", "Kesenangan adalah milikku"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.nicetoseeyou",
+  "patterns": ["senang bertemu denganmu", "senang melihatmu"],
+  "responses": ["Aku mulai merindukanmu."],
+  "context": [""]
+  }, 
+  {"tag": "greetings.nicetotalktoyou",
+  "patterns": ["Terima kasih","senang berbicara denganmu", "saya senang bisa mengobrol denganmu", "saya mengobrol denganmu"],
+  "responses": ["Kita bisa ngobrol lagi dilain waktu.", "Aku juga senang ngobrol denganmu."],
+  "context": [""]
+  }, 
+  {"tag": "greetings.islam",
+  "patterns": ["assalamualaikum", "assalamualaikum warahmatullahi wabarakatu"],
+  "responses": ["Waalaikumsalam", "Waalaikumsalam warahmatullahi wabarakatuh"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.whatareyoudoing",
+  "patterns": ["lagi apa", "sedang apa", "kamu sedang apa", "kamu lagi apa"],
+  "responses": ["Mengobrol dengan kamu", "Menunggu balasan dari kamu"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.day",
+  "patterns": ["pagi", "selamat pagi"],
+  "responses": ["Pagi juga", "Selamat Pagi juga"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.noon",
+  "patterns": ["siang", "selamat siang"],
+  "responses": ["Siang juga", "Selamat Siang juga"],
+  "context": [""]
+  }, 
+  {"tag": "greetings.night",
+  "patterns": ["malam", "selamat malam"],
+  "responses": ["malam juga", "selamat malam juga"],
+  "context": [""]
+  }
+  ]
+}
