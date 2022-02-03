@@ -20,7 +20,7 @@ Digunakan untuk membuat image pada Docker, dapat jalankan:
 
 Websocket yang digunakan
 
-1. Heroku, Namun upload terkendala karena ukuran size (maks upload file 500 GB, namun library PYTorch berukuran besar sehingga menutup kemungkinan penggunaan websocket)
+1. Heroku, Namun upload terkendala karena ukuran size (maks upload file 500 MB, namun library PYTorch berukuran besar sehingga menutup kemungkinan penggunaan websocket)
 2. Firebase, Flask digunakan sebagai servernya dan HTML, CSS, JS digunakan untuk Front-Endnya, kendala dari penggunaan Firebase adalah terkendalanya penggunaan Flask server dikarenakan terhalang untuk menggunakan Google Cloud untuk integrasinya
 
 
